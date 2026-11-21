@@ -5,8 +5,8 @@ FROM food_delivery;
 
 SELECT SUM(`Total`) AS total_revenue
 FROM food_delivery
-WHERE `Order Status` = 'Delivered';SELECT AVG(`Total`) AS avg_order_value
-
+WHERE `Order Status` = 'Delivered';
+SELECT AVG(`Total`) AS avg_order_value
 FROM food_delivery
 WHERE `Order Status` = 'Delivered';
 
